@@ -1,0 +1,94 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+}
+.list-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.char {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  text-align: center;
+  color: #dee0e3;
+  border-radius: 15px;
+  padding: 3px;
+}
+.nameEle {
+  color: #334155;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 10px;
+  text-align: center;
+}
+.dateEle {
+  color: #7e858e;
+  font-size: 12px;
+  padding-top: 5px;
+}
+.commentEle {
+  text-align: center;
+  font-size: 14px;
+  color: #64748b;
+}
+.like-img {
+  width: 23px;
+}
+.butt-like {
+  margin-right: 5px;
+  background-color: transparent;
+  border: none;
+  margin-top: 0px;
+}
+.spnEle {
+  padding: 10px;
+  font-size: 10px;
+}
+.liked {
+  color: #0b69ff;
+}
+.bottom-icons-Cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.delete-img {
+  width: 20px;
+}
+.delete-butt {
+  background-color: transparent;
+  border: none;
+  margin-top: 0px;
+}

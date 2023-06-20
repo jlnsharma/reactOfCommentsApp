@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'roboto';
+}
+.cont {
+  margin: 10px;
+}
+.input-name {
+  width: 200px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #64748b;
+}
+.input-comment {
+  width: 200px;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #64748b;
+  font-family: 'roboto';
+}
+.formEle {
+  display: flex;
+  flex-direction: column;
+}
+.comment-img {
+  width: 300px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.butt {
+  background-color: #0284c7;
+  border: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  color: #dee0e3;
+}
+.list-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: 'roboto';
+  margin-top: 20px;
+}
+.count-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.countEle {
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  color: #dee0e3;
+  background-color: #0284c7;
+  margin-top: 12px;
+}
+.count-desc {
+  margin-left: 5px;
+}
+.ul-cont {
+  background-color: #dee0e3;
+  width: 100vh;
+  padding-left: 2px;
+  padding: 10px;
+}
